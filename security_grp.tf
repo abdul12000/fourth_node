@@ -1,5 +1,5 @@
-resource "aws_security_group" "demo_sg" {
-    name = "terraform_created_sg"
+resource "aws_security_group" "ddemo_sg" {
+    name = "terraform_ccreated_sg"
     ingress{
         from_port = 22
         to_port = 22
